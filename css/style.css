@@ -1,0 +1,302 @@
+body {
+   
+    width: 100%;
+    height: 100%;
+    /* background-color: rgb(235, 200, 126); */
+    font-family: "Lucida Console", Monaco, monospace;
+  }
+  .clearfix:before, .clearfix:after{
+      content: "";
+      display: table;
+  }
+  .clearfix:after{
+      clear: both;
+  }
+  a{
+      color: #af3545;
+      text-decoration:none;
+  }
+  a:hover{
+      text-decoration:underline;
+  }
+  .form{
+      width: 400px;
+      margin: 0 auto;
+  }
+  input[type='text'], input[type='email'],
+  input[type='password'],textarea[type='text'],select {
+      width: 300px;
+      border-radius: 2px;
+      border: 1px solid #CCC;
+      padding: 10px;
+      color: #333;
+      font-size: 14px;
+      margin-top: 10px;
+  }
+  input[type='submit']{
+      padding: 10px 25px 8px;
+      color: #25314B;
+      background-color: #f8f6f1;
+      /* text-shadow: rgba(0,0,0,0.24) 0 1px 0; */
+      font-size: 16px;
+      border-block-start-color: #f8f6f1;
+      border-block-end-color: #f8f6f1;
+      border-radius: 2em;
+      margin-top: 10px;
+      cursor:pointer;
+  }
+  input[type='submit']:hover {
+      background-color: #6de1f3;
+  }
+.col{
+    padding-top: 10px;
+}
+.col-8{
+    height: 100px;
+}
+.med{
+    /* background-color: #2888b4; */
+    width: 100%;
+    /* background-color: #a3f0df; */
+    /* padding-top: 1.5em; */
+
+}
+.img{
+    width: 17.8em;
+    height: 16em;
+}
+.aprbtn{
+    float: right;
+}
+.quantity{
+    width: 200px;
+}
+.logout{
+    background-color: #f8f6f1;
+    border: #f8f6f1;
+}
+/* user information */
+
+.cart{
+/* background-color: rgb(165, 73, 73); */
+width: 100%;
+height: 150px;
+padding-top: 20px;
+}
+.usericon{
+    height: 100px;
+    width: 100px;
+    float: left;
+    clear: right;
+}
+.prop{
+    height: 100%;
+    width: 100%;
+}
+.pimg{
+width: 30%;
+float: left;
+/* background-color: #333; */
+}
+.profile{
+    float: left;
+    padding-top: 2em;
+    width: 100%;
+    /* background-color: #0d7a3a; */
+    
+}
+.name{
+    /* background-color: #bb2d40; */
+    float: left;
+    height: 30%;
+    width: 70%;
+    text-align: center;
+    padding-top: 10em;
+}
+.left{
+    float: left;
+    width: 70%;
+    /* background-color: #0d7a3a; */
+}
+.right{
+   float: right;
+  
+}
+.user{
+    float: left;
+    background-color: #dddcc9;
+    height: 30em;
+    width: 30em;
+}
+.username{
+    color: #bb2d40;
+    text-align: center;
+}
+.fullw{
+    width: 100%;
+    float: left;
+    /* padding: 0; */
+    /* background-color: #292929; */
+    /* color: #f8f6f1; */
+}
+nav a{
+    color: #f8f6f1;
+}
+nav a:hover{
+    color: #6de1f3;
+}
+/* order */
+.orders{
+    /* background-color: #e0e0e08c; */
+    text-align: center;
+}
+.search{
+    width: 100%;
+    /* background-color: #bb2d40; */
+    padding-left: 20em;
+}
+/* on top of location page */
+.navbar{
+height: 15%;
+background-color: #292929;
+width: 100%;
+}
+.fullwidth{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    padding-top: 0;
+    /* background-color: #292929; */
+}
+.homec{
+    background-color: #292929;
+    height: 100%;
+}
+.navopt{
+    /* background-color: #bb2d40; */
+    height: 100%;
+    padding: 0;
+    padding-top: 0;
+}
+.opt1{
+float: right;
+padding-top: 1em;
+padding-right: 2em;
+/* background-color:rgb(189, 153, 54); */
+
+}
+.opt2{
+float: left;
+padding: 0;
+padding-top: 1em;
+padding-left: 4em;
+/* background-color:rgb(77, 47, 102); */
+
+}
+li{
+    float: left;
+    width: 8em;
+    /* background-color: aqua; */
+    list-style: none;
+    text-align: center;
+}
+ul li a{
+    text-decoration: none;
+    display: block;
+    color: #f8f6f1;
+    font-weight: bold;
+    font-style: italic;
+    margin-left: 4px;
+    /* background-color:rgb(47, 102, 50); */
+
+    }
+    ul li a:hover{
+    text-decoration: none;
+    color: #6de1f3;
+    }
+ 
+.logo{
+    padding: 0;
+    text-align: center;
+    top: 0;
+    bottom: 0;
+}
+.main{
+    background-image: url("https://cdn.dribbble.com/users/232693/screenshots/2108657/blue-dna.gif");
+    background-size: cover;                    
+    background-position: center; 
+    /* height: 33.92em; */
+    text-align: center;
+    color: #f8f6f1;
+    height: 100%;
+
+}
+.loc{
+    height: 78.5vh;
+    padding-top: 10em;
+}
+#loc{
+    width: 40em;
+    border-radius: 2em;
+}
+.btn{
+    border-radius: 2em;
+    height: 3em;
+}
+.logout{
+    width: 6em;
+    height: 2em;
+    padding: 0%;
+}
+/* pharma list page */
+.header{
+padding: 0;
+height: 100%;
+}
+.pharmah{
+    height: 25em;
+    background-color:#FDD7CD;
+    padding: 0%;
+    color: #25314B;
+}
+.fst{
+background-color: #25314B;
+float: left;
+color: #f8f6f1;
+border: 2px solid #cecece;
+}
+.pharmalist{
+width: 100%;
+padding: 0;
+background-color: rgb(122, 70, 57);
+/* height: 100%; */
+}
+.pharmalistnav{
+background-color: #FDD7CD ;
+color: #25314B;
+}
+/* pharmacy in medlist  */
+.info{
+    float: left;
+    height: 5em;
+    text-align: center;
+    background-color: #292929;
+    padding: 0%;
+    padding-top: 1.5em;
+    border: 0%;
+    /* background-colomedr: #bb2d40; */
+}
+.namep{
+    text-align: center;
+    color: #6de1f3;
+    background-color: #292929;
+    padding: 0%;
+    padding: 2% 0 2% 0;
+}
+.nav-item{
+    width: 15em;
+}
+.alogo{
+   text-align: center;
+   background-color: #292929; 
+}
